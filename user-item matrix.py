@@ -16,5 +16,5 @@ User 4    |   3    |   0    |   1    |   4    |   0    |
 # Rows: Represent different users (User 1, User 2, etc.).
 # Columns: Represent different items (Item 1, Item 2, etc.).
 # Values: Represent the interaction between a user and an item, such as:
-#   1- Ratings (e.g., 1-5 stars)
+#   1- Ratings (e.g., 1-5 stars) 
 #   2- Binary interactions (e.g., 1 for purchased or liked, 0 for not interacted)
