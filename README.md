@@ -58,7 +58,7 @@ Cosine similarity is a metric used to measure the cosine of the angle between tw
      - View recommended movies based on similar users.
 
    ### knn item-base : https://knnitembase.streamlit.app/
-        - **`APPknn.py`**:
+      - **`APPknn.py`**:
      #### Streamlit Application Flow:
    - Movie Selection: The user selects a movie from a dropdown list.
    - Recommendation Settings: The user can choose the number of similar movies to recommend.
