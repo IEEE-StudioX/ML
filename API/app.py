@@ -6,7 +6,7 @@ import requests  # External API
 import os  # For accessing environment variables securely
 
 # Load data and prepare user-item matrix
-ratings = pd.read_csv('https://raw.githubusercontent.com/IEEE-StudioX/ML/main/API/ratings.csv')
+ratings = pd.read_csv('https://raw.githubusercontent.com/IEEE-StudioX/ML/main/API/ratings.csv') 
 movies = pd.read_csv("https://raw.githubusercontent.com/IEEE-StudioX/ML/main/API/movies.csv")
 merged_data = pd.merge(ratings, movies, on='movieId', how='inner')
 
@@ -18,7 +18,7 @@ user_item_matrix_sparse = csr_matrix(user_item_matrix.values)
 user_similarity = cosine_similarity(user_item_matrix_sparse)
 user_similarity_df = pd.DataFrame(user_similarity, index=user_item_matrix.index, columns=user_item_matrix.index)
 
-# Flask application
+# Flask application  
 app = Flask(__name__)
 
 # Movie Recommendation Function (based on collaborative filtering)
@@ -32,7 +32,7 @@ def recommend_movies(user_id, user_item_matrix, user_similarity_df, num_recommen
     recommendations_df.columns = ['Movie Title', 'Predicted Rating']
     return recommendations_df.head(num_recommendations)
 
-# TMDb API function to get additional recommendations
+# TMDb API function to get additional recommendations 
 def external_api_recommendations(movie_title, api_key):
     try:
         url = f"https://api.themoviedb.org/3/search/movie?api_key={api_key}&query={movie_title}"
