@@ -14,6 +14,10 @@ The data we needed included: `user_id`, `item_id`, and `rating`.
   - **`APPknn.py`** :  Script for deploying the KNN Item_Based recommendation model as an API USING Streamlit.
   - **`apps.py`**   : Script for deploying the Cosine Similarity User_based recommendation model as an API USING Streamlit.
   - **`app.py`**    : Script for deploying the Cosine Similarity User_based recommendation model as an API USING Flask.
+ 
+## Configuration Files:
+  - **`requirements.txt`**: Lists all the required libraries and dependencies.
+  - **`runtime.txt`**: Specifies the Python runtime environment.
 
 - **Datasets Used**:
   - The datasets are provided in the repository for the recommendation system tasks.
@@ -29,8 +33,6 @@ The data we needed included: `user_id`, `item_id`, and `rating`.
 - **Helper Scripts**:
   - **`libraries.py`**: Contains all the libraries used in the project.
   - **`user-item_matrix.py`**: Script to create and manipulate the user-item matrix.
-  - **`requirements.txt`**: Lists all the required libraries and dependencies.
-  - **`runtime.txt`**: Specifies the Python runtime environment.
 
 ## Key Concepts
 
