@@ -8,3 +8,4 @@ import matplotlib.pyplot as plt
 #similarity
 from sklearn.metrics.pairwise import cosine_similarity
 from scipy.sparse import csr_matrix 
+from sklearn.neighbors import NearestNeighbors
