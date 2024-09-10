@@ -49,9 +49,9 @@ Cosine similarity is a metric used to measure the cosine of the angle between tw
    pip install -r requirements.txt
 
 2. **streamlit deployment User-base and item base**
+   The recommendation system is deployed using Streamlit, a Python library that creates interactive web applications. The app allows users to:
    ### user base : https://userbaserecoomendation.streamlit.app/
      #### Streamlit Application Flow:
-      The recommendation system is deployed using Streamlit, a Python library that creates interactive web applications. The app allows users to:
      - Select a movie they like.
      - Choose the number of recommendations they want.
      - View recommended movies based on similar users.
