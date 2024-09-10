@@ -5,8 +5,8 @@ from scipy.sparse import csr_matrix
 import requests
 
 # Load data and prepare user-item matrix
-ratings = pd.read_csv("https://github.com/IEEE-StudioX/ML/blob/main/Datasets/ratings.csv")
-movies = pd.read_csv("https://github.com/IEEE-StudioX/ML/blob/main/API/movies.csv")
+ratings = pd.read_csv("movies.csv")
+movies = pd.read_csv("ratings.csv")
 merged_data = pd.merge(ratings, movies, on='movieId', how='inner')
 
 # Convert user-item matrix to a sparse matrix format
