@@ -2,6 +2,12 @@
 
 This repository contains the implementation of a recommendation system using different approaches, such as Item-based and User-based collaborative filtering, K-Nearest Neighbors (KNN), and cosine similarity.
 
+## Note on Data Usage
+
+We intended to use data coming directly from the app itself. However, since the app is not yet complete, we used a different dataset as a simulation of the data we will eventually extract from the app to test our code. 
+The data we needed included: `user_id`, `item_id`, and `rating`.
+
+
 ## Project Structure
 
 - **API Deployment with Streamlit**: Deployed a recommendation system using Streamlit for easy interaction and API integration.
