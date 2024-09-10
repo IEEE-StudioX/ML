@@ -14,7 +14,7 @@ merged_data = pd.merge(ratings, movies, on='movieId', how='inner')
 user_item_matrix = merged_data.pivot_table(index='userId', columns='title', values='rating').fillna(0)
 user_item_matrix_sparse = csr_matrix(user_item_matrix.values)
 
-# Compute user similarity
+# Compute user cosin similarity
 user_similarity = cosine_similarity(user_item_matrix_sparse)
 user_similarity_df = pd.DataFrame(user_similarity, index=user_item_matrix.index, columns=user_item_matrix.index)
 
