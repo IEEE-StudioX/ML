@@ -5,7 +5,7 @@ from scipy.sparse import csr_matrix
 import requests
 
 # Load data and prepare user-item matrix
-ratings = pd.read_csv("https://github.com/IEEE-StudioX/ML/blob/main/API/ratings.csv")
+ratings = pd.read_csv("https://github.com/IEEE-StudioX/ML/blob/main/API/ratings.csv", delimiter=',', skiprows=1 , error_bad_lines=False)
 movies = pd.read_csv("https://github.com/IEEE-StudioX/ML/blob/main/API/movies.csv")
 merged_data = pd.merge(ratings, movies, on='movieId', how='inner')
 
