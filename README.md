@@ -46,4 +46,8 @@ Cosine similarity is a metric used to measure the cosine of the angle between tw
    ```bash
    pip install -r requirements.txt
 
+2. ** to show recomendation system for user-item base
+   - knn item-base : https://knnitembase.streamlit.app/
+   - user base : https://userbaserecoomendation.streamlit.app/ 
+
 
