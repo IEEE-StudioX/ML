@@ -6,8 +6,8 @@ import requests  # External API
 import os  # For accessing environment variables securely
 
 # Load data and prepare user-item matrix
-ratings =pd.read_csv("C:\\Users\\ACER\\Downloads\\Telegram Desktop\\ratings.csv")
-movies = pd.read_csv("C:\\Users\\ACER\\Downloads\\Telegram Desktop\\movies.csv")
+ratings = pd.read_csv('https://raw.githubusercontent.com/IEEE-StudioX/ML/main/API/ratings.csv')
+movies = pd.read_csv("https://raw.githubusercontent.com/IEEE-StudioX/ML/main/API/movies.csv")
 merged_data = pd.merge(ratings, movies, on='movieId', how='inner')
 
 # Convert user-item matrix to a sparse matrix format
