@@ -32,8 +32,8 @@ The data we needed included: `user_id`, `item_id`, and `rating`.
 - **Helper Scripts**:
   - **`libraries.py`**: Contains all the libraries used in the project.
   - **`user-item_matrix.py`**: Script to create and manipulate the user-item matrix.
-  
-  - **Cosine Similarity Explanation**:
+
+ - **Cosine Similarity Explanation**:
   - **`cosin similarity .ipynb`**: Explains cosine similarity and how it is applied in recommendation systems.
 
 ## Key Concepts
