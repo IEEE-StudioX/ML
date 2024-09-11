@@ -22,9 +22,7 @@ The data we needed included: `user_id`, `item_id`, and `rating`.
 
 - **Datasets Used**:
   - The datasets are provided in the repository for the recommendation system tasks.
-  
-- **Cosine Similarity Explanation**:
-  - **`cosine_similarity.html`**: Explains cosine similarity and how it is applied in recommendation systems.
+
 
 - **Implementation Notebooks**:
   - **`KNN_Item_based_recommendation_system.ipynb`**: Contains the implementation of the KNN-based item recommendation system.
@@ -34,6 +32,9 @@ The data we needed included: `user_id`, `item_id`, and `rating`.
 - **Helper Scripts**:
   - **`libraries.py`**: Contains all the libraries used in the project.
   - **`user-item_matrix.py`**: Script to create and manipulate the user-item matrix.
+  
+  - **Cosine Similarity Explanation**:
+  - **`cosin similarity .ipynb`**: Explains cosine similarity and how it is applied in recommendation systems.
 
 ## Key Concepts
 
